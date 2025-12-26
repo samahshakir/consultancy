@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Projects from './components/Projects';
-import Reviews from './components/Reviews';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import AIChat from './components/AIChat';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Services from './components/Services.tsx';
+import Projects from './components/Projects.tsx';
+import Reviews from './components/Reviews.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
+import AIChat from './components/AIChat.tsx';
 
 const App: React.FC = () => {
   return (

@@ -37,6 +37,10 @@
             animation-play-state: paused;
         }
     </style>
+<script>
+    // تهيئة كائن process لمنع أخطاء التشغيل في المتصفح عند النشر
+    window.process = window.process || { env: { API_KEY: "" } };
+</script>
 <script type="importmap">
 {
   "imports": {
@@ -50,5 +54,7 @@
 </head>
 <body class="bg-gray-50 text-slate-900">
     <div id="root"></div>
+    <!-- تشغيل التطبيق كنظام وحدات ES6 -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>

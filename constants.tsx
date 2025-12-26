@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Project, Review, Service } from './types';
+import { Project, Review, Service } from './types.ts';
 
 export const SERVICES: Service[] = [
   {
