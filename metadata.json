@@ -1,0 +1,8 @@
+{
+  "name": "Wessam Al-Binaa Engineering Consulting",
+  "description": "A modern, corporate website for Wessam Al-Binaa Engineering Consulting Office featuring architectural services, project portfolios, and an AI-powered engineering assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
